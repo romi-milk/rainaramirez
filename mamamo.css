@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header img {
+    margin: 10px;
+}
+
+/* Centered heading */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff69b4;
+    text-shadow: 2px 2px 4px #888;
+}
+
+/* Navigation bar styles */
+nav {
+    text-align: center;
+    background-color: #ffe4e1;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+nav table {
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff1493;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #ff1493;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+}
+
+/* HR styles */
+hr {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to right, #ff69b4, #ff1493);
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Add responsive styles */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px auto;
+        padding: 10px;
+    }
+
+    nav table {
+        width: 100%;
+    }
+}
+
+/* Style for the Lessons Section */
+.lessons {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lesson-list li {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.lesson-list a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lesson-list a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: #ff1493;
+}
+
+
+
+/* Reflection Page Styles */
+.reflection {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.reflection-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reflection-content h2 {
+    font-size: 2em;
+    color: #ff69b4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reflection-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+.reflection-content p:first-child {
+    margin-top: 0;
+}
+
+.reflection-content p:last-child {
+    margin-bottom: 0;
+}
